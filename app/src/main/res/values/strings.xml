@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Practica 1</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="exerciseImg">Imagen Descriptiva del Ejercicio</string>
+    <string name="exerciseName">%1$s</string>
+    <string name="musculo">Musculo: %1$s</string>
+    <string name="dificultad">Dificultad: %1$s</string>
+    <string name="instrucciones">Instruciones:\n\n%1$s</string>
+    <string name="fragment_list_label">Ejercicios</string>
+</resources>
