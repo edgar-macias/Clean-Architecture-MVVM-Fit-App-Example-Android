@@ -1,4 +1,4 @@
-package com.example.practica1.data
+package com.example.practica1.data.repository
 
 import com.example.practica1.data.model.ExerciseModel
 import com.example.practica1.data.model.ExerciseProvider

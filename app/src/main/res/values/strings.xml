@@ -8,4 +8,20 @@
     <string name="dificultad">Dificultad: %1$s</string>
     <string name="instrucciones">Instruciones:\n\n%1$s</string>
     <string name="fragment_list_label">Ejercicios</string>
+    <string name="registrate">Registrate</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="correo_electronico">Email</string>
+    <string name="password">Contraseña</string>
+    <string name="login">Login</string>
+    <string name="sin_registro">¿Aun no te has registrado?</string>
+    <string name="forgot_pass">¿Haz olvidado tu contraseña?</string>
+    <string name="iniciar_sesion">Iniciar sesión</string>
+    <string name="enviar">Enviar</string>
+    <string name="enter_email">Es necesario que escribas tu correo electronico</string>
+    <string name="invalid_email">El correo electronico no es correcto</string>
+    <string name="enter_password">La contraseña es requerida</string>
+    <string name="invalid_password">"No es una contraseña valida "</string>
+    <string name="enter_first_name">El campo nombre es requerido</string>
+    <string name="enter_last_name">el campo apellido es requerido</string>
 </resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/auth_nav"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.example.practica1.ui.views.fragments.auth.RegisterFragment"
+        android:label="Registro" >
+
+        <action
+            android:id="@+id/action_registerFragment_to_home_navigation"
+            app:destination="@id/nav_graph" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.practica1.ui.views.fragments.auth.LoginFragment"
+        android:label="Iniciar sesión"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_registerFragment"
+            app:destination="@id/registerFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_forgotPasswordFragment"
+            app:destination="@id/forgotPasswordFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_home_navigation"
+            app:destination="@id/nav_graph" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/forgotPasswordFragment"
+        android:name="com.example.practica1.ui.views.fragments.auth.ForgotPasswordFragment"
+        android:label="Olvidaste tu contraseña"
+        tools:layout="@layout/fragment_forgot_password" />
+
+    <include app:graph="@navigation/nav_graph" />
+</navigation>
